@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.list:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.button {
+  border-radius: 4px;
+  border: transparent 1px solid;
+  padding: 5px;
+  width: 80px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(211, 209, 209);
+}
