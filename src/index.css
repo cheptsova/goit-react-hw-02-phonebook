@@ -1,4 +1,7 @@
-@import-normalize; /* bring in normalize.css styles */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
