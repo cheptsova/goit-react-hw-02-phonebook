@@ -28,12 +28,11 @@ export class ContactForm extends Component {
       id: nanoid(),
     });
 
-    this.reset(event);
+    this.reset();
   };
 
-  reset = event => {
+  reset = () => {
     this.setState({ name: '', number: '' });
-    event.currentTarget.reset();
   };
 
   render() {
